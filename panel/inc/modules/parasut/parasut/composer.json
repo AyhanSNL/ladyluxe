@@ -1,0 +1,5 @@
+{
+    "require": {
+        "inpinos/php-parasut-api-v4": "^1.3"
+    }
+}

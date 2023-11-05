@@ -1,0 +1,267 @@
+
+body {
+    overflow: hidden;
+}
+
+/*toolbar*/
+#print-designer-toolbar {
+    min-width: 940px;
+    height: 51px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+    #print-designer-toolbar .toolbar-item {
+        float: left;
+        padding: 10px;
+        border-right: 1px solid #dedddc;
+    }
+
+    #print-designer-toolbar .toolbar-fontfamily-wrapper select {
+        border: 1px solid #c5c4c2;
+        padding: 5px 3px 5px 3px;
+        outline: none;
+    }
+
+    #print-designer-toolbar .input-wrapper {
+        position: relative;
+    }
+
+        #print-designer-toolbar .input-wrapper .input-title {
+            margin-right: 10px;
+        }
+
+        #print-designer-toolbar .input-wrapper input {
+            border: 1px solid #c5c4c2;
+            max-width: 100%;
+            width: 60px;
+            padding: 5px 3px 5px 3px;
+            outline: none;
+        }
+
+            #print-designer-toolbar .input-wrapper input:focus {
+                border: 1px solid #188cbf;
+            }
+
+        #print-designer-toolbar .input-wrapper .toolbar-unit {
+            position: absolute;
+            right: 15px;
+            top: 13px;
+            height: 23px;
+            line-height: 23px;
+            pointer-events: none;
+            color: #999999;
+        }
+
+    #print-designer-toolbar .toolbar-textarea-wrapper input {
+        width: 120px;
+    }
+
+    #print-designer-toolbar button {
+        color: #a39f9d;
+        background: #fff;
+        border: 1px solid #d2d0cf;
+        width: 28px;
+        margin-right: 2px;
+        height: 28px;
+        line-height: 26px;
+        padding: 0;
+        outline: none;
+        transition-property: background,color,border-color;
+        transition-duration: .66s;
+        transition-timing-function: cubic-bezier(0.25,1,.25,1);
+    }
+
+        #print-designer-toolbar button.active {
+            color: #fff;
+            background: #188cbf;
+            border: 1px solid #188cbf;
+        }
+
+    /*canvas*/
+    #print-designer-canvas {
+        background: #f8f8f8;
+        overflow: auto;
+        position: relative;
+        text-align: center;
+        min-width: 640px;
+        padding: 15px 0 0 0;
+        margin: 0;
+        border: 1px solid #EBEBEB;
+    }
+
+/*items*/
+#print-designer-items {
+    overflow: auto;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    background: #fff;
+
+}
+
+    #print-designer-items .print-designer-item {
+        position: relative;
+        background-color: #FDFDFD;
+    }
+
+        #print-designer-items .print-designer-item h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+            border-bottom: 1px solid #dedddc;
+            height: 51px;
+            line-height: 50px;
+            text-indent: 20px;
+        }
+
+            #print-designer-items .print-designer-item ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+                #print-designer-items .print-designer-item ul li {
+                    border-bottom: 1px solid #dedddc;
+                    cursor: grab;
+                    cursor: -webkit-grab;
+                    padding: 10px 10px;
+                    font-size: 12px ;
+                }
+                    #print-designer-items .print-designer-item ul li:hover {
+                        background-color: #f2f1f1;
+                    }
+                    #print-designer-items .print-designer-item ul li.ui-draggable-dragging {
+                        position: fixed !important;
+                        -webkit-box-shadow: 0 3px 6px #c5c4c2;
+                        -moz-box-shadow: 0 3px 6px #c5c4c2;
+                        box-shadow: 0 3px 6px #c5c4c2;
+                        width: 280px;
+                    }
+
+/*paper*/
+.print-designer-paper-wrapper {
+    display: inline-block;
+    text-align: left;
+    background-color: #FFF;
+    background-size: cover;
+}
+
+    .print-designer-paper-wrapper .print-designer-paper {
+        position: relative;
+        border: 1px solid #e8e7e7;
+        margin-left: -1px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+        .print-designer-paper-wrapper .print-designer-paper .print-designer-paper-item {
+            position: absolute;
+            cursor: move;
+            overflow: hidden;
+            border: 1px solid transparent ;
+            line-height: 1.33;
+            box-sizing: border-box;
+            min-height: 40px;
+            min-width: auto;
+            margin: 15px;
+        }
+        .print-designer-paper-wrapper .print-designer-paper .print-designer-paper-item p {
+            pointer-events: none;
+        }
+
+            .print-designer-paper-wrapper .print-designer-paper .print-designer-paper-item i {
+                display: none;
+                cursor: pointer;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 12px ;
+                padding: 5px;
+                background-color: rgba(0,0,0,.8);
+                transition-property: color;
+                transition-duration: .66s;
+                transition-timing-function: cubic-bezier(0.25,1,.25,1);
+            }
+                .print-designer-paper-wrapper .print-designer-paper .print-designer-paper-item i:hover {
+                    color: #ccc;
+                }
+            .print-designer-paper-wrapper .print-designer-paper .print-designer-paper-item:hover i {
+                display: block;
+            }
+
+/*rulers*/
+.print-designer-ruler {
+    position: absolute;
+    line-height: 8px;
+    background: #f8f8f8;
+    border:1px solid #EBEBEB;
+    z-index: 10;
+    display: none;
+}
+
+.print-designer-ruler.vertical-ruler {
+    left: 0;
+    width: 25px;
+}
+    .print-designer-ruler.vertical-ruler .vertical-ruler-tick {
+        float: left;
+        border-bottom: 1px solid #b9b7b5;
+        width: 25px;
+        height: 1cm;
+        line-height: 1cm;
+        margin-top: -1px;
+        text-align: center;
+    }
+    .print-designer-ruler.vertical-ruler .vertical-ruler-scroll {
+        position: absolute;
+        z-index: 10;
+        width: 25px;
+        background-color: rgba(24,140,191,.1);
+    }
+
+.print-designer-ruler.horizontal-ruler {
+    top: 0;
+    height: 15px;
+}
+    .print-designer-ruler.horizontal-ruler .horizontal-ruler-tick {
+        float: left;
+        border-left: 1px solid #b9b7b5;
+        height: 15px;
+        width: 1cm;
+        margin-left: -1px;
+        line-height: 15px;
+    }
+    .print-designer-ruler.horizontal-ruler .horizontal-ruler-scroll {
+        position: absolute;
+        z-index: 10;
+        height: 15px;
+        background-color: rgba(24,140,191,.15);
+        z-index: 1;
+    }
+
+.toolbar-selected {
+    border-color: #CCC !important;
+    border-width: 1px !important;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.element_Head{
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+    font-size: 18px ;
+    color: #000;
+    font-weight: 600;
+    border-bottom: 1px solid #EBEBEB;
+}
+.element_Head:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f063";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    margin-right: 5px;
+    font-size: 15px ;
+
+}

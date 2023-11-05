@@ -1,0 +1,2265 @@
+@media screen and (max-width: 767px) and (min-width: 0){
+    .home-product-tabs {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 120%;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    .mobile-top-header-links-area{
+        width: 50%;
+        padding: 5px 15px;
+        display: flex;
+        align-items : center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 0){
+    .product-categories-box-main {
+        margin-left: 0;
+        width: 100%;
+    }
+    .ebulten-modulhead{
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:0) {
+    .sablon2-level-menu,
+    .ticaret-kutulari-inside,
+    .group-urun-module-inside-area,
+    .product-categories-inside-vitrin2,
+    .product-categories-inside,
+    .about-module-main-div-boxed,
+    .firsatlar-urun-module-inside-area,
+    .footer-module-inside-area,
+    .story-in-div-standart,
+    .urun-detay-main-in,
+    .urun-detay-desc-main,
+    .marka-module-inside-area,
+    .top-level-menu-main-div-in,
+    .topheader-desktop-main-div-in,
+    .user_login_register_div,
+    .bultenn-module-inside-area,
+    .hizmetler-container-main,
+    .bildirimler-container-main,
+    .page-banner-in-text,
+    .iletisim-container-main,
+    .sss-faq-container-main,
+    .cart-main-div,
+    .bildirim-detay-main,
+    .pricing-tablolar-module-inside-area,
+    .cat-detail-main-div-in,
+    .hizmetler-module-inside-area,
+    .home-product-tabcontent-in,
+    .bloglar-module-inside-area,
+    .htmlpage-container-main,
+    .fotogaleri-container-main-in,
+    .bultenn-box-area,
+    .videolar-container-flex,
+    .hizmetler-detay,
+    .bloglar-container-main,
+    .no-cart-items-in-div,
+    .bloglar-detay,
+    .musteriyorum-container-main,
+    .tablolar-container-main,
+    .user_subpage_div,
+    .sucess-order-in-div,
+    .ccard-payment-page-main,
+    .yorumlar-module-inside-area,
+    .teslimat-page-main,
+    .compare-container-main,
+    .user_subpage_favorites_noitems_s,
+    .header-desktop-main-div-in{
+        width: 93% !important;
+    }
+    .banka-hesap-main-box-img,
+    .banka-hesap-main-box-flex-doviz,
+    .banka-hesap-main-box-flex-isim,
+    .user-kargo-return-right,
+    .banka-hesap-main-box-flex-name,
+    .teslimat-bilgileri-adres-box,
+    .teslimat-bilgileri-div,
+    .banka-hesap-main-box-flex-iban,
+    .banka-hesap-main-box-flex-hesap,
+    .account_subpage_order_address_right,
+    .tsl-ad-2,
+    .urundetay-cart-add-success-modal-footer a,
+    .user_subpage_comment_box,
+    .cart-right-div,
+    .teslimat-bilgileri-uye-adres-main div,
+    .account_subpage_order_products_box_hed_status,
+    .ccard-payment-paytr-2-left,
+    .ccard-payment-iyzico-right,
+    .about-module-center-img img,
+    .user_subpage_favorites_box_div,
+    .user_subpage_address_box_added,
+    .kargo-form-user-h,
+    .user_subpage_address_box,
+    .about-module-leftside-img,
+    .kargo-form-user-inputarea select,
+    .blog-list-tags-div,
+    .user_subpage_flex_header_right a,
+    .order-search-user-filter,
+    .bloglar-detay-left,
+    .urun-detay-benzer-urunler-main-div,
+    .hizmetler-detay-right,
+    .user_page_login_form,
+    .iban-user-area-form button,
+    .kargo-form-user-ok-value,
+    .user-kargo-return-left,
+    .urunler-module-inside-area,
+    .about-module-rightside-img,
+    .user_page_right_text_div,
+    .user_subpage_siparis_box_status,
+    .category-detail-mobile-acc,
+    .user_subpage_left_bar_main,
+    .kargo-form-user-inputarea input,
+    .user_subpage_address_box_added_noitem,
+    .odeme-bildirim-box,
+    .ccard-payment-paytr-2-right-in,
+    .alt_sayfa_flex_1,
+    .urun-detay-sol-alan,
+    .urun-detay-sag-alan,
+    .cat-right-elements-left,
+    .cat-right-elements-right,
+    .user_subpage_account_left,
+    .user_subpage_account_right,
+    .user_subpage_flex_header_right,
+    .page-banner-links,
+    .page-banner-h,
+    .user_subpage_select,
+    .user_subpage_coupon_content,
+    .cart-left-div,
+    .ccard-payment-paytr-1-frame,
+    .iban-user-area-form input,
+    .user_subpage_siparis_box_end,
+    .cat-right-main,
+    .user_subpage_siparis_box_status .button-1x,
+    .kargo-form-user-inputarea,
+    .user_subpage_flex_header_h,
+    .sss-content-txt{
+        flex:none;
+        width: 100% !important;
+    }
+    .home-product-tabcontent-in{
+        margin: 0 auto;
+    }
+    .user_login_register_div,
+    .bloglar-detay,
+    .iletisim-container-main,
+    .sss-faq-container-main,
+    .videolar-container-flex,
+    .iban-user-area-form,
+    .user_subpage_flex_header,
+    .cart-left-box-main,
+    .user_subpage_flex_header_right,
+    .page-banner-in-text,
+    .htmlpage-container-main{
+        flex-wrap: wrap;
+    }
+    .bildirim-detay-main a,
+    .iletisim-container-in-top-box,
+    .page-banner-h,
+    .success-order-h-3,
+    .urundetay-cart-add-success-modal-footer a,
+    .hizmetler-detay-img,
+    .hizmetler-detay-leftmain,
+    .user_subpage_kupon_tutar,
+    .kargo-form-user-h,
+    .success-order-buttons-area a,
+    .success-order-h-2,
+    .user_subpage_kupon_sdate,
+    .videos-tags-find,
+    .user_page_login_form,
+    .user_page_header,
+    .cart-left-box-main,
+    .category-detail-mobile-acc,
+    .user-kargo-return-right,
+    .kargo-form-user-ok-value,
+    .teslimat-bilgileri-sol-kutular-dar,
+    .user-kargo-return-left,
+    .user_page_header2,
+    .user_subpage_info_div_blue,
+    .user_subpage_flex_header,
+    .teslimat-bilgileri-sol-kutular,
+    .kargo-form-user-inputarea input,
+    .user_subpage_flex_header_h,
+    .cat-right-header-out,
+    .iban-user-area-form input,
+    .kargo-form-user-inputarea select,
+    .user_subpage_address_box_added_noitem,
+    .bildirimler-bilgi-box{
+        margin-bottom: 10px !important;
+    }
+    .bloglar-detay-right,
+    .category-detail-mobile-acc-in,
+    .cat-detail-main-div,
+    .user_subpage_kupon_name_2,
+    .cart-left-box-main,
+    .ccard-payment-page-main,
+    .urun-detay-main-in,
+    .bloglar-detay{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .page-banner-links,
+    .user_subpage_flex_header_right a,
+    .user_subpage_siparis_box_status .button-1x,
+    .about-module-rightside-img,
+    .about-module-leftside-img,
+    .page-banner-h {
+        text-align: center !important;
+    }
+    .cart-main-div,
+    .tsl-ad-2,
+    .user_subpage_siparis_boxes_div,
+    .compare_header_div a{
+        margin-top: 15px;
+    }
+    .compare-container-table-div{
+        overflow-x: auto;
+    }
+    .banka-hesap-main-box-flex-name,
+    .banka-hesap-main-box-flex-doviz,
+    .banka-hesap-main-box-flex-isim,
+    .banka-hesap-main-box-flex-iban,
+    .banka-hesap-main-box-flex-hesap,
+    .user_subpage_kupon_name_2,
+    .banka-hesap-main-box-img{
+        border-bottom: 1px solid #EBEBEB;
+    }
+    .banka-hesap-main-box-flex-ust{
+        border-bottom: 0;
+        padding: 10px 10px 0 10px ;
+    }
+    .topheader-html-main-in{
+        width: 95%;
+        margin: 0;
+        font-size: 13px !important;
+    }
+    .mobile-top-header-main{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .mobil-top-header-lang-currency{
+        flex:1;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobil-top-header-currency,
+    .mobil-top-header-lang
+    {
+        padding: 5px 10px;
+    }
+    .mobil-header-select-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px 7px;
+        font-size: 11px ;
+    }
+    .mobil-header-select-area i{
+        margin-left: 5px;
+    }
+    .mobile-top-header-links-area{
+        width: 50%;
+        padding: 5px 15px;
+        display: flex;
+        align-items : center;
+        justify-content: center;
+    }
+    .swiper-top-header .swiper-slide{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .swiper-top-header .swiper-slide a {
+        font-size: 12px;
+    }
+    .mobile-header-main-area{
+        width: 100%;
+        padding: 13px 15px;
+    }
+    .mobile-header-main-ust{
+        width: 100%;
+        display: flex;
+        align-items : center;
+        justify-content: space-between;
+    }
+    .mobile-header-logo{
+        width: 140px;
+    }
+    .mobile-header-logo img{
+        max-width: 95%;
+    }
+    .mobile-header-ust-right{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-header-icons{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 25px ;
+        padding: 3px;
+        display: flex;
+        position: relative;
+    }
+    .mobile-header-icons:hover{
+        text-decoration: none;
+    }
+    .mobile-header-bars{
+        width: auto;
+        margin-left: 12px;
+        display: flex;
+        font-size: 24px ;
+        padding: 3px 6px;
+        line-height: 25px;
+    }
+    .mobile-header-bars:hover{
+        text-decoration: none;
+    }
+    .ccard-payment-paytr-2-left-in,
+    .mobile-header-bars label{
+        height: auto;
+        margin-bottom: 0!important;
+    }
+    .search-tip2-overlay #search-tip2-wrapper {
+        width: 300px;
+    }
+    .search-tip2-overlay #search-tip2-wrapper #search-tip2-inside #mk-fullscreen-search-input {
+        width: 100%;
+        font-size: 15px ;
+        padding: 20px 0;
+        text-align: left;
+    }
+    .search-tip2-overlay #search-tip2-wrapper #search-tip2-inside .fullscreen-search-icon {
+        font-size: 20px;
+        right: 5px;
+        top: 22px;
+    }
+    .mobile-header-main-search{
+        margin-top: 13px;
+        width: 100%;
+    }
+    .header-desktop-search1{
+        margin-left: 0;
+    }
+    .header-desktop-search1 form input{
+        min-width: 100%;
+        font-size: 13px ;
+        height: 35px;
+        padding: 0 15px;
+    }
+    .header-desktop-search1 form button{
+        font-size: 20px ;
+        right: 5px;
+    }
+    .bars-left-area{
+        margin-left: 0 !important;
+        margin-right: 10px !important;
+    }
+    .mobile_side_wrap {
+        overflow: auto;
+        transition: all .5s;
+        position: fixed;
+        width: 345px;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+    }
+    .mobile_side_overlay {
+        background: rgba(0, 0, 0,.3);
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 900;
+        height: 100%;
+    }
+    .none-grid-system,
+    .detail-none,
+    .mobile_side_toggle {
+        display: none;
+    }
+    .mobile_side_toggle:checked + .mobile_side_wrap {
+        left: 0;
+    }
+    .mobile_side_toggle:checked ~ .mobile_side_overlay {
+        display: block;
+    }
+    .mobile_side_wrap_in_close{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobile_side_wrap_in_close label{
+        padding: 5px 10px;
+        line-height: normal;
+    }
+    .mobile_side_wrap_in{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .mobile_side_wrap_in_search{
+        width: 100%;
+        position: relative;
+    }
+    .mobile_side_wrap_in_search input{
+        width: 100%;
+        padding-left: 10px;
+        height: 42px;
+        font-size: 14px ;
+    }
+    .mobile_side_wrap_in_search button{
+        position: absolute;
+        top:3px;
+        right: 10px;
+        background-color: transparent;
+        border: 0;
+        font-size: 22px ;
+        margin-bottom: 20px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        margin-top: 10px;
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .success-order-h-2,
+    .mobile_side_content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mobile_side_wrap_in_footer{
+        margin: 0 auto;
+        margin-top: auto;
+        width: 90%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        padding: 5px 28px 5px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Mobile Accordion */
+    .markadetay-content-box-text,
+    .teslimat-odeme-main-box label,
+    .mobile-menu-categories-main{
+        width: 100%;
+        font-size: 13px ;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul li {
+        position: relative;
+        width: 100%;
+        vertical-align: middle;
+        list-style-type: none;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul li.open > a > i {
+        transform: rotate(90deg);
+    }
+    .mobile-menu-categories-main #categories-parent-main ul li a {
+        position: relative;
+        text-decoration: none;
+        width: 100%;
+        padding-left: 10px;
+        box-sizing: border-box;
+        height: 42px;
+        display: flex;
+        align-items : center;
+        justify-content: flex-start;
+        outline: 0;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul li a span {
+        display: inline-block;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul li a i {
+        top: 0;
+        right: 0;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+        position: absolute;
+        touch-action: manipulation;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul li a i .fa-angle-left,
+    .mobile-menu-categories-main #categories-parent-main ul li a i .fa-angle-right {
+        padding-top: 3px;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul ul {
+        display: none;
+    }
+    .mobile-menu-categories-main #categories-parent-main ul ul li {
+        border-bottom: none;
+    }
+    /*  <========SON=========>>> Mobile Accordion SON */
+    .story-in-div{
+        max-width: 99%;
+    }
+
+    .home-product-tabs {
+        margin: 0;
+        overflow:auto;
+        justify-content: flex-start;
+        width: 93%;
+        white-space: nowrap;
+    }
+    .cat-detail-products-box{
+        width: 48.5% !important;
+        margin-bottom: 15px;
+    }
+    .desktop-header-area{
+        display: none;
+    }
+    .mobile-header-logo-tablet-pro{
+        display: none;
+    }
+    .header-mobile-view{
+        display: block;
+    }
+    .story-group-box-h{
+        font-size: 12px;
+    }
+    .ticaret-kutulari-inside{
+        width: 93%;
+    }
+    .ticaret-kutu-box{
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .cat-detail-products-box-h {
+        font-size: 13px;
+        min-height: 50px !important;
+    }
+    .middle-slider-img{
+        display: none;
+    }
+    .middle-slider-img-mobile{
+        display: block;
+    }
+    .cat-detail-products-box-caturunvitrin{
+        width: 48.5% !important;
+        margin-bottom: 10px;
+    }
+    .swiper-product-list .swiper-slide .cat-detail-products-box-caturunvitrin{
+        width:100% !important;
+    }
+    .group-product-main-box{
+        width: 100% !important;
+        margin-bottom: 15px;
+        padding-top: 20px;
+    }
+    .group-product-main-box-container-header{
+        margin-bottom: 8px;
+    }
+    .pgDetail_box_h i,
+    .vitrin2-box-h,
+    .user_subpage_flex_header_h,
+    .user_subpage_account_header,
+    .group-product-main-box-container-header-left-h{
+        font-size: 18px ;
+    }
+    .urun-detay-benzer-urunler-main-div-head-l,
+    .group-product-main-box-container-header-left-s{
+        font-size: 13px ;
+    }
+    .group-product-main-box:last-child{
+        margin-bottom: 0;
+    }
+    .group-product-main-box-img{
+        display: none;
+    }
+    .group-product-main-box-container-header-left{
+        min-width: 100% !important;
+    }
+    .modules-head-forbg-text{
+        font-size: 20px ;
+    }
+    .product-categories-main-div-vitrin2{
+        padding-top: 10px !important;
+    }
+    .modules-head-forbg-text-out{
+        width: 100%;
+        height: 15px;
+    }
+    .vitrin2-box-img{
+        height: auto;
+        min-height: auto;
+    }
+    .vitrin2-box-img img{
+        height: auto;
+        min-height: auto;
+        max-width: 100%;
+    }
+    .vitrin2-box-s{
+        display: none;
+    }
+    .slider_text_inside_main_2{
+        display: none;
+    }
+    .slide-top-desktop{
+        display: none !important;
+    }
+    .slide-top-mobile{
+        display:inline-block !important;
+    }
+    .user_subpage_account_left,
+    .user_subpage_ticket_message_user_box,
+    .product-categories-box{
+        width: 100% !important;
+        margin:0 !important;
+        margin-bottom: 20px !important;
+    }
+    .product-categories-box-img-dis{
+        height:200px !important;
+    }
+    .about-module-leftside-img,
+    .musteriyorum-container-main-in,
+    .bloglar-detay-left,
+    .hizmetler-detay-right,
+    .user_page_right_text_div,
+    .user_subpage_account_right,
+    .user_subpage_address_add_border_div,
+    .user-kargo-return-left,
+    .cart-left-div,
+    .kargo-form-user-inputarea select,
+    .user-kargo-return-right,
+    .ccard-payment-paytr-2-right-in,
+    .user_subpage_left_bar_main,
+    .user_subpage_comment_box,
+    .ccard-payment-paytr-1-frame,
+    .user_subpage_kupon_name,
+    .account_subpage_order_address_right,
+    .kargo-form-user-inputarea input,
+    .urun-detay-sol-alan,
+    .orderDetail_product_button,
+    .teslimat-bilgileri-div,
+    .ccard-payment-iyzico-right,
+    .kargo-form-user-inputarea,
+    .about-module-rightside-img{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .user_subpage_div,
+    .user_subpage_account_right,
+    .teslimat-page-main,
+    .no-cart-items-in-div,
+    .sucess-order-in-div,
+    .user_login_register_div{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .about-module-center-img img,
+    .about-module-leftside-img img,
+    .about-module-rightside-img img{
+        max-height: 280px;
+        margin-bottom: 20px;
+    }
+    .user_page_header_subpage{
+        display: none;
+    }
+    .about-module-center-txt-h2,
+    .about-module-leftside-txt-h2,
+    .about-module-rightside-txt-h2{
+        font-size: 26px !important ;
+        line-height: 28px !important;
+    }
+    .about-module-center-txt-s,
+    .about-module-leftside-txt-s,
+    .about-module-rightside-txt-s{
+        font-size: 18px !important ;
+        margin-bottom: 25px !important;
+    }
+    .countdowns{
+        flex-wrap: wrap;
+    }
+    .countdown-container{
+        margin:5px;
+    }
+    .user_subpage_favorites_box_h,
+    .rdio span,
+    .user_subpage_favorites_box_hin,
+    .countdown-container .countdown-heading{
+        font-size: 11px;
+    }
+    .hizmetler-box{
+        width: 40.5%;
+        margin: 10px;
+    }
+    .hizmetler-box-h{
+        font-size: 16px !important;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-s{
+        font-size: 13px ;
+    }
+    .pricing-tab-system a{
+        padding: 5px 15px;
+        font-size: 16px !important;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .blog-box{
+        width: 100%;
+        margin:10px 0;
+    }
+    .pgallery-module-inside-box{
+        width: 50%;
+        height: 150px;
+    }
+    .pgallery-module-inside-box img{
+        min-width: 100%;
+        max-width: 115% ;
+        min-height: 150px;
+        max-height: 220px !important;
+    }
+    .ebulten-modulhead{
+        width: 90%;
+    }
+    .modules-head-text-h{
+        font-size: 20px ;
+        line-height: 22px;
+    }
+    .bultenn-box-area form input{
+        width: auto;
+    }
+    .footer-module-box-social{
+        justify-content: center;
+    }
+    .bultenn-box-area form button{
+        font-size: 15px ;
+        padding: 13px 20px;
+    }
+    .footer-module-inside-area{
+        width: 93%;
+        justify-content: flex-start;
+    }
+    .user_subpage_kupon_name,
+    .footer-1-area{
+        width: 100% !important;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer-module-box-telif{
+        width: 100% !important;
+        margin-bottom: 26px;
+        font-size: 13px ;
+        line-height: 16px;
+    }
+    .footer-4-area{
+        width: 50%;
+        margin-bottom: 20px !important;
+    }
+    .footer-module-box {
+        margin:0;
+    }
+    .fixed-foot-navigation{
+        display: flex;
+        position: fixed;
+        bottom:0;
+        width: 100%;
+        z-index: 99;
+    }
+    .fixed-foot-navigation-in{
+        width: 93%;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .fixed-foot-navigation-in-box{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px ;
+        font-weight: 600;
+    }
+    .fixed-foot-navigation-in-box i{
+        font-size: 22px ;
+        margin-right: 5px;
+    }
+    .subpage_navigation{
+        width: 100% ;
+        margin-right:0;
+    }
+    .subpage-nav-mobile-toggle{
+        display: block;
+        width: 100%;
+        background-color: #FFF;
+        box-sizing: border-box;
+        border: 1px solid #EBEBEB;
+        text-align: center;
+        padding: 4px 8px;
+        font-size: 13px ;
+    }
+    .subpage-nav-mobile-toggle:hover{
+        background-color: #333 !important;
+        border: 1px solid #333 !important;
+        color: #fff !important;
+    }
+    .subpage-nav-desktop{
+        display: none;
+    }
+    .subpage-nav-mobile-main{
+        display: block;
+    }
+    .subpage_navigation-box{
+        margin-bottom: 10px;
+    }
+    .user_subpage_ticket_message_main,
+    .subpage_navigation-box:last-child{
+        margin-bottom: 0!important;
+    }
+    ul#bildirim_tabs{
+        white-space: nowrap;
+        overflow-x: scroll;
+        margin-bottom: 0;
+    }
+    ul#bildirim_tabs li a {
+        padding: 10px;
+        font-size: 13px ;
+    }
+    ul#bildirim_tabs li a.selected:after {
+        display: none;
+    }
+    .bildirimler-box-tarih{
+        display: none;
+    }
+    .bildirimler-box-baslik{
+        align-items: flex-start;
+    }
+    .musteri-yorum-boxes{
+        width: 90%;
+        margin:0;
+        margin-bottom: 25px;
+    }
+    .videolar-sub-box{
+        width:45%;
+    }
+    .video-detail-container-main-iframe iframe{
+        height:180px;
+    }
+    .category-detail-mobile-acc{
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 1px solid #EBEBEB;
+    }
+    .category-detail-mobile-acc-in{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .category-detail-mobile-acc-subcat{
+        border-right: 1px solid #EBEBEB;
+        width: 50%;
+        box-sizing: border-box;
+        font-size: 13px ;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .category-detail-mobile-acc-filter{
+        flex:1;
+        box-sizing: border-box;
+        font-size: 13px ;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-weight: 600;
+    }
+    .category-detail-mobile-acc-filter i{
+        margin-right: 5px;
+    }
+    .nice-select-cat-detail{
+        width: 170px;
+    }
+    .nice-select.open .list {
+        width: 200px!important;
+    }
+    .cat-right-elements-right-liste{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    .cat-right-elements-right-liste{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    .cat-detail-products-box-img-list{
+        width: 90px;
+        overflow: inherit;
+    }
+    .cat-detail-products-box-img-list .cat-detail-products-box-kargo{
+        bottom: 0;
+        width: 95% !important;
+        font-size: 9px ;
+        height: 20px;
+    }
+    .pgDetail_box{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    .pgDetail_box_h{
+        font-size: 11px ;
+        align-items: flex-start;
+    }
+    .masonry {
+        column-count: 2;
+        column-gap: 1em;
+    }
+    .order-search-user-filter{
+        display: flex;
+        min-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .user_subpage_siparis_box_orderno{
+        width: 70%;
+        color: #000000;
+    }
+    .user_subpage_siparis_box_status,
+    .user_subpage_siparis_box_end{
+        margin-top: 15px;
+        border-top: 1px solid #EBEBEB;
+        padding-top: 15px;
+        justify-content: space-between;
+    }
+    .user_subpage_siparis_box_end_amount{
+        text-align: left;
+    }
+    .ustsearch_area input{
+        border: 1px solid #EBEBEB;
+        padding: 0 20px;
+    }
+    .ccard-payment-paytr-2-right-in,
+    .user_subpage_favorites_box_div{
+        margin-top: 0 !important;
+    }
+    .user_subpage_favorites_box{
+        width: 45%;
+        padding: 10px;
+        margin:0 5px 10px 5px;
+        border: 1px solid #EBEBEB;
+    }
+    .markadetay-content-box,
+    .user_subpage_kupon_sdate,
+    .user_subpage_kupon_tutar{
+        flex:none;
+        width: 50%;
+    }
+    .user_subpage_ticketbox_lasthour_2,
+    .user_subpage_ticketbox_lasthour_1,
+    .user_subpage_ticketbox_status,
+    .user_subpage_ticketbox_h,
+    .user_subpage_ticketbox_number{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .cat-right-header2-right{
+        margin-left: auto;
+        width: auto !important;
+    }
+    .cat-right-header2-right img{
+        width: 50px;
+    }
+    .cart-left-box-main{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .cart-head{
+        display: none;
+    }
+    .cart-left-box-1{
+        width: 40px;
+        height: auto;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        margin-left: 0;
+        margin-right: 16px;
+    }
+    .cart-left-box-1 img{
+        width: 40px;
+        border: 1px solid #EBEBEB;
+    }
+    .cart-left-box-2{
+        width: 80% !important;
+        margin: 5px 0;
+        margin-bottom: 15px;
+    }
+    .cart-left-box-2-txt{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .cart-left-box-3{
+        display: none;
+    }
+    .cart-left-box-4{
+        width: auto;
+        margin-right: 10px;
+        padding: 0;
+    }
+    .cart-left-box-6{
+        margin-left:auto;
+        padding: 0;
+    }
+    .cart-left-box-5{
+        width: auto;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .cart-left-box-5 span{
+        margin-left: 2px;
+    }
+    .teslimat-bilgileri-adres-box input:checked+label .teslimat-bilgileri-adres-box-secili{
+        width: 116% !important;
+    }
+    .teslimat-bilgileri-uye-adres-yok-box-icon {
+        display: none;
+    }
+    .tsl-ad-2{
+        height: auto !important;
+    }
+    .success-order-h-3{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 25px !important;
+    }
+    .no-cart-items-main-div{
+        padding: 0;
+    }
+    .ccard-payment-paytr-2-right-in{
+        padding: 0;
+    }
+    .account_subpage_order_address_right{
+        margin-top: 15px;
+    }
+    .account_subpage_order_address_main{
+        margin-bottom: 15px;
+    }
+    .account_subpage_order_products_box {
+        padding: 15px;
+    }
+    .account_subpage_order_products_box_hed_name {
+        flex:1;
+        width: auto;
+        font-size: 13px;
+        font-weight: 600;
+        color: #000;
+    }
+    .account_subpage_order_products_box_hed_status {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .account_subpage_order_products_box_hed_status{
+        margin-top: 10px;
+    }
+    .account_subpage_order_products_box_fot_kargo,
+    .account_subpage_order_products_box_fot_kdv,
+    .account_subpage_order_products_box_fot_adet,
+    .account_subpage_order_products_box_fot_birim {
+        flex: none;
+        width: 50%;
+    }
+    .sepet-return-alert{
+        padding: 15px !important;
+        box-sizing: border-box;
+        font-size: 14px ;
+    }
+    .sepet-return-product{
+        border: 1px solid #EBEBEB;
+        margin-bottom: 5px;
+    }
+    .sepet-return-product-quantity {
+        width: 100% !important;
+        padding: 5px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        text-align: left !important;
+        align-items: flex-start;
+    }
+    .urun-detay-sol-alan{
+        padding-bottom: 10px;
+    }
+    .urun-detay-sag-alan {
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    .product-detail-variant-div{
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+    .date-variant{
+        min-width: 100% !important;
+    }
+    .urun-detay-sag-alan-fiyat-sag {
+        flex: 1;
+        font-size: 15px;
+        color: #666;
+        text-align: right;
+        padding-left: 0;
+        flex-wrap: wrap;
+        justify-content: flex-end !important;
+    }
+    .urun-detay-sag-alan-fiyat-sag span{
+        margin-top: 5px;
+        text-align: right;
+    }
+    .urun-detay-sag-alan-fiyat-sol {
+        width: 150px;
+        font-size: 12px;
+        padding-right: 15px;
+    }
+
+
+    .limitdetay-div{
+        margin-left: 0 !important;
+        width: 100%;
+        border: 2px solid #EBEBEB !important;
+        padding: 5px 10px !important;
+        text-align: center !important;
+        font-size: 11px !important ;
+        background-color: #f8f8f8;
+    }
+    .kargoucret-detay-div{
+        margin-left: 0 !important;
+        width: 100%;
+        padding: 0 !important;
+        border: 0!important;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .kargoucret-detay-div i{
+        font-size: 16px !important ;
+        margin-right: 5px;
+    }
+    .urun-detay-sag-alan-ek-bilgiler-box{
+        margin-bottom: 5px;
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    .urun-detay-sag-alan-sepet {
+        flex-wrap: wrap;
+    }
+    .urun-detay-sag-alan-sepet-box{
+        width: auto;
+    }
+    .urun-detay-sag-alan-sepet-box {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .urun-detay-sag-alan-sepet-box button{
+        padding: 0 43px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    .urun-detay-sag-alan-sepet-box-wp{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .urun-detay-sag-alan-urun-islemler-main{
+        flex-wrap: wrap;
+    }
+    .fav-a{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .fav-b{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .karsilastir-product{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .karsilastir-product-exit{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .urun-detay-sag-alan-ek-bilgiler-box {
+        border: 0;
+        padding: 0;
+        font-size: 12px;
+        background-color: #fff;
+    }
+    .urun-detay-social{
+        display: none;
+    }
+    .urun-detay-sag-alan-d-bilgiler-box{
+        width: 100%;
+        padding: 0 !important;
+        margin-bottom: 7px;
+    }
+    .urun-detay-sag-alan-d-bilgiler-box:last-child{
+        margin-bottom: 0;
+    }
+    .urun-detay-sag-alan-d-bilgiler{
+        flex-wrap: wrap;
+    }
+    .urun-detay-sag-alan-baslik{
+        font-size: 18px ;
+        line-height: 24px;
+    }
+    .urun-detay-sag-alan-yildiz {
+        width: 100% !important;
+        justify-content: flex-start;
+    }
+
+    .mobil-div-bildirim{
+        border: 0 !important;
+        background-color: #fff !important;
+        padding: 0 !important;
+        font-size: 9px !important ;
+    }
+    .kazanc-mobil-div{
+        font-size: 12px !important ;
+        border: 1px dashed red !important;
+        background-color: #fff !important;
+        color: #dc3545 !important;
+        text-align: center !important;
+    }
+    .urun-detay-sag-alan-iliskili-kat i{
+        margin:0 2px
+    }
+    .urun-detay-sag-alan-iliskili-kat a{
+        color: #000;
+        font-size: 11px ;
+        display: inline-block;
+    }
+    .urun-detay-desc-main {
+        width: 93%;
+        margin-top: 40px;
+    }
+    .ui-tabs .ui-tabs-nav li {
+        list-style: none;
+        float: left;
+        position: relative;
+        top: 0;
+        margin: 0;
+        border-bottom-width: 0;
+        padding: 0;
+        white-space: nowrap;
+    }
+    .ui-tabs .ui-tabs-nav li {
+        font-size: 13px;
+    }
+    .ui-tabs .ui-tabs-nav li a{
+        padding: 25px 25px !important;
+        border: 0 !important;
+    }
+    .ui-tabs .ui-tabs-nav{
+        white-space: nowrap !important;
+        overflow-x: scroll !important;
+        display: flex !important;
+    }
+    .ui-tabs .ui-tabs-panel {
+        padding: 20px!important;
+        font-size: 13px;
+    }
+    .product-detail-features-table {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .product-detail-features-table-left {
+        width: 90px;
+    }
+    .product-detail-features-table-dots{
+        width: 30px;
+    }
+    .urun-detay-benzer-urunler-main-div {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .taksitler-boxes {
+        width: 100%;
+    }
+    .product-comment-head {
+        margin-bottom: 20px;
+    }
+    .product-comment-head-1 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .product-comment-head-2 {
+        width: 100%;
+        padding: 10px;
+    }
+    .modal-in-comment{
+        padding: 40px 20px 20px 20px;
+    }
+    .modal-in-comment-head-h-text {
+        text-align: center !important;
+    }
+    .product-comment-head-content-box-name-rad {
+        display: none;
+    }
+    .product-comment-head-content-box {
+        align-items: flex-start;
+        padding: 15px;
+    }
+    .product-comment-head-1-btn div{
+        width: 100% !important;
+        padding: 15px 10px;
+    }
+    .urundetay-cart-add-success-modal-footer {
+        padding: 15px;
+        border-top: 0;
+    }
+    .urundetay-cart-add-success-modal-footer a{
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 15px 10px;
+    }
+    .urun-detay-sag-alan-no-stok{
+        font-size: 12px ;
+    }
+    .sepet-return-product-img img{
+        border: 0;
+    }
+    .arrorhead{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .urun-detay-benzer-urunler-main-div .arrorhead .Slick-Next, .urun-detay-benzer-urunler-main-div .arrorhead .Slick-Prev {
+        font: 20px FontAwesome;
+        padding: 10px 15px;
+        border: 1px solid #EBEBEB;
+        margin-right: 5px;
+    }
+
+}
+@media screen and  (max-width:374px) and (min-width:0) {
+    .vitrin2-box{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .mobile-header-logo{
+        max-width: 85px !important;
+    }
+    .urun-detay-sag-alan-fiyat-sol {
+        width: 125px;
+        font-size: 12px;
+        padding-right: 15px;
+    }
+    .urun-detay-sag-alan-sepet-box button{
+        padding: 0 15px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    .mobil-top-header-currency,
+    .mobil-top-header-lang
+    {
+        padding: 5px 5px;
+    }
+    .mobil-header-select-area {
+        padding: 3px 3px;
+        font-size: 10px !important ;
+    }
+    .swiper-top-header .swiper-slide a {
+        font-size: 11px;
+    }
+    .urun-detay-benzer-urun-box-img{
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+    }
+    .urun-detay-benzer-urun-box-img img{
+       width: 100%;
+    }
+    .urun-detay-benzer-urun-box {
+        height: 530px !important;
+    }
+    .urun-detay-benzer-urun-box-overlay {
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    .pgDetail_box_img{
+        height: 100px;
+    }
+    .pgDetail_box_img img{
+        min-height: 100px;
+    }
+    .videolar-sub-box-img{
+        height: 115px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 115px;
+        max-height: 125px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        max-height: 365px;
+    }
+    .mobile_side_wrap {
+        width: 280px;
+        left: -350px;
+    }
+    .hizmetler-box-img{
+        height: 90px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 90px;
+        max-height: 110px;
+    }
+    .cat-detail-products-box-big{
+        width: 48.1% !important;
+        margin-bottom: 10px;
+    }
+    .cat-detail-products-box-img {
+        width: 100%;
+    }
+    .cat-detail-products-box-caturunvitrin-img-5 img{
+        width: 100% !important;
+    }
+
+    .product-categories-box-img{
+        width: 100%;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+    }
+    .modules-head-forbg-text{
+        font-size: 15px ;
+    }
+    .teslimat-bilgileri-adres-box input:checked+label .teslimat-bilgileri-adres-box-secili{
+        width: 119% !important;
+    }
+
+}
+@media screen and  (max-width: 409px) and (min-width: 375px) {
+    .vitrin2-box{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .mobile-header-logo{
+        max-width: 150px !important;
+    }
+    .urun-detay-benzer-urun-box {
+        height: 495px !important;
+    }
+    .urun-detay-benzer-urun-box-img{
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+    }
+    .urun-detay-benzer-urun-box-img img{
+       width: 100%;
+    }
+
+    .urun-detay-benzer-urun-box-overlay {
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    .pgDetail_box_img{
+        height: 100px;
+    }
+    .pgDetail_box_img img{
+        min-height: 100px;
+    }
+    .videolar-sub-box-img{
+        height: 115px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 115px;
+        max-height: 125px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        max-height: 600px;
+    }
+    .mobile_side_wrap {
+        width: 345px;
+        left: -380px;
+    }
+    .hizmetler-box-img{
+        height: 90px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 90px;
+        max-height: 110px;
+    }
+    .cat-detail-products-box-big{
+        width: 48.1% !important;
+        margin-bottom: 10px;
+    }
+    .cat-detail-products-box-img {
+        width: 100%;
+    }
+    .cat-detail-products-box-caturunvitrin-img-5 img{
+       width: 100% !important;
+    }
+    .product-categories-box-img{
+        width: 100%;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+    }
+
+}
+@media screen and (max-width:599px) and (min-width:410px) {
+    .vitrin2-box{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .urun-detay-benzer-urun-box-img{
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+    }
+    .urun-detay-benzer-urun-box-img img{
+       width: 100%;
+
+    }
+    .urun-detay-benzer-urun-box {
+        height: 440px !important;
+    }
+    .urun-detay-benzer-urun-box-overlay {
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    .pgDetail_box_img{
+        height: 100px;
+    }
+    .pgDetail_box_img img{
+        min-height: 100px;
+    }
+    .videolar-sub-box-img{
+        height: 125px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 125px;
+        max-height: 125px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        max-height: 530px;
+    }
+    .mobile_side_wrap {
+        width: 345px;
+        left: -380px;
+    }
+    .hizmetler-box-img{
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 100px;
+        max-height: 100px;
+    }
+    .cat-detail-products-box-big{
+        width: 48.1% !important;
+        margin-bottom: 10px;
+    }
+
+    .cat-detail-products-box-img {
+        width: 100%;
+    }
+
+    .cat-detail-products-box-caturunvitrin-img-5 img{
+        max-width: 100% !important;
+    }
+
+    .product-categories-box-img{
+        width: 100%;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+    }
+
+}
+@media screen and  (max-width:599px ) and (min-width:540px ){
+    .vitrin2-box{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .pgDetail_box_img{
+        height: 150px;
+    }
+    .pgDetail_box_img img{
+        min-height: 150px;
+    }
+    .videolar-sub-box-img{
+        height: 160px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 160px;
+        max-height: 160px;
+    }
+
+
+
+    .cat-detail-products-box-img {
+        width: 100%;
+    }
+
+    .cat-detail-products-box-caturunvitrin-img-5 img{
+       width: 100% !important;
+    }
+
+    .hizmetler-box-img{
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 130px;
+        max-height: 130px;
+    }
+    .product-categories-box-img-dis{
+        height:250px !important;
+    }
+    .product-categories-box-img{
+        height:250px !important;
+    }
+
+}
+@media screen and (max-width:767px) and (min-width:600px) {
+    .vitrin2-box{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .urun-detay-benzer-urun-box-img{
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+    }
+    .urun-detay-benzer-urun-box-img img{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .urun-detay-benzer-urun-box {
+        height: 440px !important;
+    }
+    .urun-detay-benzer-urun-box-overlay {
+        width: 100%;
+        margin-left: -15%;
+    }
+
+    .pgDetail_box_img{
+        height: 100px;
+    }
+    .pgDetail_box_img img{
+        min-height: 100px;
+    }
+    .videolar-sub-box-img{
+        height: 125px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 125px;
+        max-height: 125px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        max-height: 800px;
+    }
+    .mobile_side_wrap {
+        width: 500px;
+        left: -550px;
+    }
+    .hizmetler-detay-img{
+        width: 100%;
+        border: 0;
+    }
+    .hizmetler-detay-img img{
+        max-width: 100%;
+        width: auto;
+    }
+    .hizmetler-box-img{
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 140px;
+        max-height: 140px;
+    }
+    .cat-detail-products-box-big,
+    .cat-detail-products-box-caturunvitrin,
+    .cat-detail-products-box{
+        width: 31.5% !important;
+    }
+
+    .cat-detail-products-box-img {
+        width: 100%;
+    }
+
+
+    .cat-detail-products-box-caturunvitrin-img-5 img{
+        width: 100% !important;
+    }
+    .product-categories-box{
+        width: 48% !important;
+        margin:5px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .product-categories-box-img{
+        width: 100%;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+    }
+    .pgallery-module-inside-box {
+        width: 33%;
+    }
+    .bultenn-box-area form input{
+        width: 350px;
+    }
+    .footer-4-area{
+        width: 33%;
+    }
+    .ticaret-kutu-box{
+        width: 50% !important;
+        padding: 20px 10px;
+        border:0 !important
+    }
+    .ticaret-kutu-box{
+        flex-wrap: wrap;
+    }
+    .ticaret-kutu-box-i{
+        text-align: center;
+        width: 100%;
+    }
+    .ticaret-kutu-box-text{
+        text-align: center;
+    }
+    .urun-detay-sag-alan-fiyat-sag div{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .mobile-top-header-links-area{
+        padding: 7px 15px;
+    }
+    .alt_sayfa_flex_1{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .banka-hesap-main-box{
+        width: 49% !important;
+        margin-right: .5%;
+        margin-left: .5%;
+
+    }
+    .counter-module-inside-area{
+        width: 93%;
+    }
+    .counter-module-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .counter-module-box-sayi{
+        font-size: 30px ;
+    }
+    .counter-module-box-txt{
+        font-size: 14px ;
+    }
+    .mobile-header-icons {
+        font-size: 30px;
+    }
+    .teslimat-bilgileri-adres-box input:checked+label .teslimat-bilgileri-adres-box-secili{
+        width: 106.5% !important;
+    }
+    .bars-left-area{
+        margin-right: 15px !important;
+    }
+    .mobile-header-logo{
+        display: none;
+    }
+    .mobile-header-logo-tablet-pro{
+        margin:5px 10px;
+        margin-left: 0;
+        display: inline-block;
+    }
+    .mobile-header-logo-tablet-pro img{
+        max-width: 100%;
+    }
+    .cat-right-elements-right,
+    .cat-right-elements-left{
+        width: auto !important;
+    }
+    .none-grid-system{
+        display: inline-block;
+    }
+    .middle-slider-img-mobile img{
+        width: 100% !important;
+    }
+    .swiper-top-header .swiper-slide{
+        justify-content: center;
+    }
+    .mobile-top-header-links-area{
+        width: 550px;
+    }
+    .urun-detay-benzer-urun-box-img{
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+    }
+    .urun-detay-benzer-urun-box-img img{
+        width: 100%;
+    }
+    .urun-detay-benzer-urun-box {
+        height: 500px !important;
+    }
+    .urun-detay-benzer-urun-box-overlay {
+        width: 100%;
+        margin-left: -15%;
+    }
+    .user_subpage_favorites_box {
+        width: 31.8%;
+    }
+
+    .pgDetail_box_img{
+        height: 180px;
+    }
+    .pgDetail_box_img img{
+        min-height: 180px;
+    }
+    .videolar-sub-box-img{
+        height: 210px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 210px;
+        max-height: 210px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        max-height: 800px;
+    }
+    .mobile_side_wrap {
+        width: 500px;
+        left: -550px;
+    }
+    .hizmetler-detay-img{
+        width: 100%;
+        border: 0;
+    }
+    .hizmetler-detay-img img{
+        max-width: 100%;
+        width: auto;
+    }
+    .hizmetler-box-img{
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 180px;
+        max-height: 180px;
+    }
+    .cat-detail-products-box-big{
+        width: 31.5%;
+    }
+    .cat-detail-products-box-caturunvitrin,
+    .cat-detail-products-box{
+        width: 23.5% !important;
+    }
+
+
+    .pgallery-module-inside-box {
+        width: 33%;
+    }
+    .bultenn-box-area form input{
+        width: 350px;
+    }
+    .footer-4-area{
+        width: 33%;
+    }
+    .ticaret-kutu-box{
+        width: 50% !important;
+        padding: 20px 10px;
+        border:0 !important
+    }
+    .ticaret-kutu-box{
+        flex-wrap: wrap;
+    }
+    .ticaret-kutu-box-i{
+        text-align: center;
+        width: 100%;
+    }
+    .ticaret-kutu-box-text{
+        text-align: center;
+    }
+    .urun-detay-sag-alan-fiyat-sag div{
+        width: 100%;
+    }
+    .blog-box,
+    .ptable-box{
+        width: 29%;
+        margin:8px
+    }
+    .blog-box-button,
+    .blog-box-date,
+    .ptable-header-tavsiye{
+        font-size: 11px ;
+        letter-spacing: normal;
+    }
+    .ptable-box-price,
+    .ptable-header{
+        font-size: 18px ;
+    }
+    .blog-box-img{
+        height: 150px;
+    }
+    .blog-box-h{
+        font-size: 14px ;
+        line-height: 16px;
+    }
+    .pgallery-module-inside-box{
+        width: 25%;
+    }
+    .cart-left-box-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+    .cart-head{
+        display: none;
+    }
+
+    .cart-left-box-2{
+        width: 100% !important;
+        margin: 5px 0;
+        margin-bottom: 15px;
+    }
+    .cart-left-box-2-txt{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .cart-left-box-3{
+        display: none;
+    }
+    .cart-left-box-4{
+        width: auto;
+        margin-right: 10px;
+        padding: 0;
+    }
+    .cart-left-box-6{
+        margin-left:auto;
+        padding: 0;
+    }
+    .cart-left-box-5{
+        width: auto;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .cart-left-box-5 span{
+        margin-left: 2px;
+    }
+    .cart-left-box-1{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        margin-right: 16px;
+    }
+    .cart-left-box-1 img{
+        width: 99px;
+        border: 1px solid #EBEBEB;
+    }
+
+    .urun-detay-sol-alan {
+        width: 35% !important;
+        margin-right: 10px !important;
+        padding-bottom: 20px !important;
+    }
+    .product-comment-head-1{
+        width: 45% !important;
+        margin-right: 15px !important;
+    }
+    .product-comment-head-2,
+    .urun-detay-sag-alan {
+        flex: 1 !important;
+    }
+    .urun-detay-sag-alan-sepet-box button{
+        padding: 0 95px !important;
+    }
+
+
+}
+@media screen and (max-width:1151px) and (min-width:1024px) {
+    .mobile-top-header-links-area{
+        padding: 7px 15px;
+    }
+    .alt_sayfa_flex_1{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .banka-hesap-main-box{
+        width: 49% !important;
+        margin-right: .5%;
+        margin-left: .5%;
+
+    }
+    .middle-slider-img-mobile{
+        display: none !important;
+    }
+    .bars-left-area{
+        margin-right: 15px !important;
+    }
+    .middle-slider-img{
+        display: inline-block !important;
+    }
+    .counter-module-inside-area{
+        width: 93%;
+    }
+    .counter-module-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .slide-top-desktop{
+        display: inline-block !important;
+    }
+    .slide-top-mobile{
+        display: none !important;
+    }
+    .teslimat-bilgileri-adres-box input:checked+label .teslimat-bilgileri-adres-box-secili{
+        width: 106.5% !important;
+    }
+    .mobile-header-logo{
+        display: none;
+    }
+    .mobile-header-logo-tablet-pro{
+        margin:5px 10px;
+        margin-left: 0;
+        display: inline-block;
+    }
+    .mobile-header-logo-tablet-pro img{
+        max-width: 100%;
+    }
+    .cat-right-elements-right,
+    .cat-right-elements-left{
+        width: auto !important;
+    }
+    .none-grid-system{
+        display: inline-block;
+    }
+    .middle-slider-img-mobile img{
+        width: 100% !important;
+    }
+    .swiper-top-header .swiper-slide{
+        justify-content: center;
+    }
+    .mobile-top-header-links-area{
+        width: 800px;
+    }
+    .urun-detay-benzer-urun-box-img{
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+    }
+    .urun-detay-benzer-urun-box-img img{
+        width: 100%;
+    }
+    .urun-detay-benzer-urun-box {
+        height: 530px !important;
+    }
+    .urun-detay-benzer-urun-box-overlay {
+        width: 100%;
+        margin-left: -15%;
+    }
+    .user_subpage_favorites_box {
+        width: 31.8%;
+    }
+
+    .pgDetail_box_img{
+        height: 180px;
+    }
+    .pgDetail_box_img img{
+        min-height: 180px;
+    }
+    .videolar-sub-box-img{
+        height: 210px;
+    }
+    .videolar-sub-box-img img{
+        min-height: 210px;
+        max-height: 210px;
+    }
+    .mobile_side_wrap_in_categories_main{
+        max-height: 900px;
+    }
+    .mobile_side_wrap {
+        width: 750px;
+        left: -800px;
+    }
+    .hizmetler-detay-img{
+        width: 100%;
+        border: 0;
+    }
+    .hizmetler-detay-img img{
+        max-width: 100%;
+        width: auto;
+    }
+    .hizmetler-box-img{
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .hizmetler-box-img img{
+        min-height: 180px;
+        max-height: 180px;
+    }
+    .cat-detail-products-box-big{
+        width: 31.5%;
+    }
+    .cat-detail-products-box-caturunvitrin,
+    .cat-detail-products-box{
+        width: 23.5% !important;
+    }
+    .cat-detail-products-box-img {
+        width: 100%;
+    }
+
+
+    .cat-detail-products-box-caturunvitrin-img-5 img{
+       width: 100% !important;
+    }
+    .product-categories-box{
+        width: 48% !important;
+        margin:5px !important;
+        margin-bottom: 20px !important;
+    }
+    .product-categories-box-img-dis{
+        height:150px !important;
+    }
+    .product-categories-box-img{
+        width: 100%;
+        height:150px !important;
+        background-size: 100% auto !important;
+        background-repeat: no-repeat !important;
+    }
+    .pgallery-module-inside-box {
+        width: 33%;
+    }
+    .bultenn-box-area form input{
+        width: 350px;
+    }
+    .footer-4-area{
+        width: 20%;
+    }
+    .ticaret-kutu-box{
+        width: 25% !important;
+        padding: 20px 10px;
+    }
+    .ticaret-kutu-box{
+        flex-wrap: wrap;
+    }
+
+
+    .urun-detay-sag-alan-fiyat-sag div{
+        width: 100%;
+    }
+    .blog-box,
+    .ptable-box{
+        width: 29%;
+        margin:8px
+    }
+
+    .ptable-box-price,
+    .ptable-header{
+        font-size: 18px ;
+    }
+    .blog-box-img{
+        height: 200px;
+    }
+    .pgallery-module-inside-box{
+        width: 20%;
+    }
+    .cart-left-box-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+    .cart-left-box-main{width: 100%; height: auto; overflow: hidden; border: 1px solid #EBEBEB;  border-top: 0;  font-size: 14px ; font-weight: 500; background-color: #fff; box-sizing: border-box; padding: 0 18px; }
+    .cart-left-box-1{width: 98px!important;; height: auto; overflow: hidden; display: inline-block; vertical-align: top; margin: 18px 15px 18px 0;}
+    .cart-left-box-1 img{width: 88px!important; }
+    .cart-left-box-2{width: 250px !important; height: auto; overflow: hidden; display: inline-block; vertical-align: top; margin: 18px 35px 18px 0;}
+    .cart-left-box-2 a{color:#000; }
+    .cart-left-box-2 a:hover{color:#666; text-decoration: none;}
+    .cart-left-box-2-txt{max-width: 290px;}
+    .cart-left-box-2-other-info{margin-top: 12px; font-size:13px; font-weight: bold}
+    .cart-left-box-3{width: 90px; height: auto; overflow: hidden; display: inline-block; vertical-align: top; margin: 18px 35px 18px 0;}
+    .cart-left-box-4{width: 135px; height: auto; overflow: hidden; display: inline-block; vertical-align: top; margin: 0 35px 0 0; padding: 18px 0 18px 8px; }
+    .cart-left-box-5{width: 137px; height: auto; overflow: hidden; display: inline-block; vertical-align: top; margin: 18px 0 18px 0; line-height: 14px}
+    .cart-left-box-6{width: 55px; height: auto;  display: inline-block; vertical-align: top; padding: 18px 0 18px 0; text-align: right}
+
+    .urun-detay-sol-alan {
+        width: 35% !important;
+        margin-right: 10px !important;
+        padding-bottom: 20px !important;
+    }
+    .product-comment-head-1{
+        width: 45% !important;
+        margin-right: 15px !important;
+    }
+    .product-comment-head-2,
+    .urun-detay-sag-alan {
+        flex: 1 !important;
+    }
+    .urun-detay-sag-alan-sepet-box button{
+        padding: 0 70px !important;
+    }
+    .hizmetler-box{
+        width: 31.2%;
+    }
+    .footer-1-area{
+        margin-bottom: 30px;
+    }
+    .about-module-rightside-img{
+        width: auto !important;
+        max-width: 200px !important;
+    }
+    .mobile-header-icons {
+        font-size: 34px;
+    }
+    .desktop-header-area{
+        display: inline-block !important;
+    }
+}

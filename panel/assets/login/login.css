@@ -1,0 +1,202 @@
+html,
+body{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family : 'Roboto',Sans-serif ;
+    height: 100%;
+    width: 100%;
+}
+
+.login-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+}
+.login-left-side{
+    width: 50%;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+
+}
+.login-left-side-in{
+    width: 450px;
+}
+.login-left-side-in-logo{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.login-left-side-in-logo img{
+    max-width: 70px;
+}
+.login-left-side-in-text{
+    width: 100%;
+    color: #000;
+    margin-bottom: 40px;
+}
+.login-left-side-in-text-1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.login-left-side-in-text-2{
+    font-size: 14px ;
+    color: #000;
+}
+.login-left-side-in-form{
+    width: 100%;
+}
+.login-left-side-in-form-input{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.login-left-side-in-form-input i{
+    color:#000;
+    position: absolute;
+    right: 0;
+    top:14px;
+}
+.login-left-side-in-form-input input{
+    width: 100%;
+    border:0;    border-radius: 4px;
+    font-size: 14px ;
+    border-bottom: 1px solid #000;
+    transition-duration: 0.4s; transition-timing-function: linear;
+    height: 42px;
+}
+
+.login-left-side-in-form-input input:focus{
+    outline: none;
+    border-bottom: 1px solid #e9b102;
+}
+.login-left-side-in-form-input button{
+    margin-top: 10px;
+    background-color: #e9b102;
+    border: 0;
+    padding: 15px 36px;
+    font-size: 17px ;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.2s; transition-timing-function: linear;
+}
+.login-left-side-in-form-input button:focus{
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+
+.login-right-side{
+    width: 50%;
+    background-color: #fff;
+    position: relative;
+}
+.login-right-side-in-link{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.login-right-side-in-link-in{
+    flex-direction: column;
+    display: flex;
+}
+
+.login-right-side-in-link-a{
+    display: inline-block;
+    font-size: 16px ;
+    font-weight: 400;
+    width: 165px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 24px 28px;
+    border-radius: 100px 0 0 100px;
+    margin-bottom: 2px;
+}
+.login-right-side-in-link-a-w{
+    display: inline-block;
+    font-size: 16px ;
+    font-weight: 500;
+    width: 165px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 24px 28px;
+    border-radius: 100px 0 0 100px;
+    margin-bottom: 2px;
+}
+.vegas-container{
+    width: 100%;
+    min-height: 100%;
+}
+
+.error-login-div{
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 13px ;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:767px) and (min-width:0) {
+
+    html,
+    body{
+        height: auto;
+    }
+    .login-main{
+        flex-wrap: wrap;
+    }
+
+    .login-left-side{
+        width: 100%;
+        position: relative;
+    }
+    .login-right-side{
+        width: 100%;
+        height:380px;
+    }
+    .login-right-side-in-link{
+        display: none;
+    }
+    .login-left-side-in{
+        width: 85%;
+        text-align: center;
+        margin-top: -70px;
+        position: relative;
+        background-color: #fff;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    .login-left-side-in-logo{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1023px) and (min-width:767px) {
+    .login-left-side-in{
+        width: 85%;
+        margin-top: -70px;
+        position: relative;
+        background-color: #fff;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 15px;
+    }
+}

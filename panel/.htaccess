@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule ^$ home-index.php [L,QSA]
+RewriteRule ^login/$ home-login.php [L,QSA]
+RewriteRule ^logincontrol$ inc/modules/login/login.php [L,QSA]
+RewriteRule ^header-counters$ masterpiece.php?page=header_counter [L,QSA]
+RewriteRule ^home-visitors$ masterpiece.php?page=home_visitors [L,QSA]
+RewriteRule ^home-data-counters$ masterpiece.php?page=home_data_counters [L,QSA]
+RewriteRule ^home-order-statistic$ masterpiece.php?page=home_order_statistic [L,QSA]
+RewriteRule ^home-sale-statistic$ masterpiece.php?page=home_sale_statistic [L,QSA]
+RewriteRule ^bekleyen-isler-dynamic$ masterpiece.php?page=bekleyen_isler [L,QSA]
+RewriteRule ^order-type-pie$ masterpiece.php?page=order_type_pie [L,QSA]
+RewriteRule ^logout/$ post.php?process=logout [L,QSA]

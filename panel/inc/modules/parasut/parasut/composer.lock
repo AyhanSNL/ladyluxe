@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ed83df820630a5ffbb7c15ea737623cf",
+    "packages": [
+        {
+            "name": "inpinos/php-parasut-api-v4",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekoseoglu/php-parasut-api-v4.git",
+                "reference": "f5845fc3af751128bd20daf0ab5df5e1847a3a09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekoseoglu/php-parasut-api-v4/zipball/f5845fc3af751128bd20daf0ab5df5e1847a3a09",
+                "reference": "f5845fc3af751128bd20daf0ab5df5e1847a3a09",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Parasut\\API\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Esat Köseoğlu",
+                    "email": "ekoseoglu22@gmail.com"
+                }
+            ],
+            "description": "Parasut API Version 4",
+            "support": {
+                "issues": "https://github.com/ekoseoglu/php-parasut-api-v4/issues",
+                "source": "https://github.com/ekoseoglu/php-parasut-api-v4/tree/1.3"
+            },
+            "time": "2021-09-23T22:12:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
